@@ -1,0 +1,31 @@
+.user-status-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.user-status-table thead tr {
+    background: #eee;
+}
+
+.user-status-table tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+.user-status-table th,
+.user-status-table td {
+    padding: 5px;
+    border: 1px solid #eee;
+}
+
+.user-status-table th {
+    text-align: left;
+}
+
+.user-status-table .Online {
+    color: #fff;
+    background: #4CAF50;
+}
+
+.user-status-table .Offline {
+    background: #CCC;
+}

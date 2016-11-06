@@ -1,0 +1,14 @@
+##############################
+#### Logs and databases
+##############################
+*.log
+*.sql
+*.sqlite
+database.yml
+
+##############################
+#### OS generated files
+##############################
+.DS_Store*
+ehthumbs.db
+Thumbs.db
